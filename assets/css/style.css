@@ -1,0 +1,39 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    box-shadow: 1px 1px 45px -7px #00001126;
+}
+.header .header-div{
+    max-width: 900px;
+    margin: 0 auto;
+    height: inherit;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.header .header-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .header-item i{
+    font-size:25px;
+} 
