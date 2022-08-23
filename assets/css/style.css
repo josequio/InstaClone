@@ -4,6 +4,7 @@ html{
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
+
 *,
 ::before,
 ::after{
@@ -24,7 +25,6 @@ body{
     box-shadow: 1px 1px 45px -7px #00001126;
     position: sticky;
     top: 0;
-   
 }
 .header .header-div{
     max-width: 900px;
